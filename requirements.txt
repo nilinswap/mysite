@@ -1,7 +1,6 @@
 cached-property==1.5.1
 certifi==2018.11.29
 chardet==3.0.4
-GDAL==2.4.0
 get==2018.11.19
 idna==2.8
 Naked==0.1.31
