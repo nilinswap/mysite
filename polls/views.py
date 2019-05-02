@@ -20,6 +20,11 @@ def results(request, question_id):
     question = get_object_or_404(Question, pk = question_id)
     return render(request, 'polls/results.html', {'question': question})
 
+def mail(request):
+    url = "http://acko.in/Y"
+    context = {'pi_link': url}
+    return render(request, 'polls/mail.html', context)
+
 
 def vote(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
